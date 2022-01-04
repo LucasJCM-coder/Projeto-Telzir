@@ -112,7 +112,7 @@ $ npm start
 ```
 
 
-#### 🎲 Rodando os tests (servidor)
+#### 🎲 Rodando os testes (servidor)
 
 ```bash
 
