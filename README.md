@@ -129,6 +129,12 @@ $ cd server
 # Instale as dependências
 $ npm install
 
+# Cria o arquivo do banco de dados
+npm run knex:migrate     
+
+# Popula o banco de dados
+$ npm run knex:seed    
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 
