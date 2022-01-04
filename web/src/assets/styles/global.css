@@ -1,0 +1,52 @@
+:root {
+    font-size: 70%;
+
+    --background-header: linear-gradient(180deg, rgba(65, 166, 201, 0.1) 0%, rgba(144, 184, 198, 0.0398257) 0.01%, rgba(151, 186, 198, 0.0343684) 99.98%, rgba(196, 196, 196, 0) 99.99%, rgba(196, 196, 196, 0) 100%);
+    --background-body: linear-gradient(180deg, #F4F5EF 0%, rgba(199, 217, 209, 0.65) 100%);
+    --background-footer: linear-gradient(180deg, #BBC5C9 0%, rgba(255, 255, 255, 0) 100%);
+    --background-first-div-body: rgba(219, 228, 222, 0.49); 
+    --background-second-div-body: rgba(218, 234, 222, 0.49);
+    --background-button: rgba(225, 230, 225, 0.55);
+
+    --background-container-results: rgba(41, 233, 304, 0.05);
+    --label-value-with-discount: #21c57b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+    width: 100vw;
+}
+
+body {
+    background: var(--background-body);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+body, input, button {
+    font: 500 1.0rem Roboto;
+}
+
+header {
+    background: var(--background-header);
+}
+
+footer {
+    font: 300 18px Blinker;
+    background: var(--background-footer);
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 99%;
+    }
+}

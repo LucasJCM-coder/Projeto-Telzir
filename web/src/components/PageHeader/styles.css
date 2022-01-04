@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+}
+
+#logoImg {
+    margin-left: 0.4rem;
+    width: 160px;
+    height: auto;
+    margin-top: 0.5rem;
+}

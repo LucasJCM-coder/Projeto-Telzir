@@ -1,0 +1,77 @@
+.containerSimulator {
+    background: var(--background-first-div-body);
+    margin: 10vh 3vw;
+    padding-top: 2vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerSimulator h3 {
+    font-size: 24px;
+}
+
+.containerInputValues {
+    margin-top: 2vh;
+    background: var(--background-second-div-body);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.field input {
+    text-align: center;
+}
+
+.field input[type="number"] {
+    width: 80px;
+    height: 37px;
+}
+
+#BtnCalculateValue {
+    width: 90px;
+    height: auto;
+}
+#resultsContainer {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.plano {
+    width: 70px;
+    height: auto;
+    background: var(--background-container-results);
+    font-size: 16px;
+}
+
+.outputValues {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#valorComPlano {
+    color: var(--label-value-with-discount);
+}
+
+
+@media (min-width: 700px) {
+    .containerInputValues {
+        flex-direction: row;
+    }
+
+    .field {
+        flex-direction: column;
+    }
+}
