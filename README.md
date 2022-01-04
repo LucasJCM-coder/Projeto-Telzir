@@ -74,7 +74,7 @@ $ cd server
 $ npm install
 
 # Cria o arquivo do banco de dados
-npm run knex:migrate     
+$ npm run knex:migrate     
 
 # Popula o banco de dados
 $ npm run knex:seed    
@@ -130,7 +130,7 @@ $ cd server
 $ npm install
 
 # Cria o arquivo do banco de dados
-npm run knex:migrate     
+$ npm run knex:migrate     
 
 # Popula o banco de dados
 $ npm run knex:seed    
