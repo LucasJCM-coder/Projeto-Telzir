@@ -141,7 +141,5 @@ $ npm start
 # Execute os tests
 $ npm test
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-
 ```
 
