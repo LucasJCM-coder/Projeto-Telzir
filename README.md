@@ -22,7 +22,7 @@ Tabela de conteúdos
      * [Pré-requisitos](#pré-requisitos)
      * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
      * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
-
+     * [Rodando a aplicação pelo container (Docker)](#user-content--rodando-a-aplicação-docker)
 
 
 ## 💻 Sobre o projeto
@@ -141,5 +141,18 @@ $ npm start
 # Execute os tests
 $ npm test
 
+```
+
+#### Rodando a aplicação pelo container (Docker) 
+
+
+ ```bash
+# Cria o container do backend e do server
+$ docker-compose up -d
+```
+ou
+```bash
+# Cria o container do backend e do server
+$ make up
 ```
 
